@@ -7,12 +7,9 @@ It demonstrates **clean backend architecture**, including **MVC patterns**, rout
 
 This project is designed as a **portfolio-ready educational prototype**, showing practical backend development skills.
 
----
 
 ## Project Architecture
 
-laravel-task-manager-api/
-## 📂 Project Structure
 
 ```bash
 laravel-task-manager-api/
@@ -39,9 +36,8 @@ laravel-task-manager-api/
 ├── .env.example                # Environment variable template
 ├── composer.json               # PHP dependencies
 └── README.md                   # Project documentation
+```
 
-
----
 
 ## Features
 - **Task Management**
