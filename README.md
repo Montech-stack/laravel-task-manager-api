@@ -68,7 +68,7 @@ laravel-task-manager-api/
 
 1. **Clone the repository**
 
-```
+
 git clone https://github.com/Montech-stack/laravel-task-manager-api.git
 cd laravel-task-manager-api
 
