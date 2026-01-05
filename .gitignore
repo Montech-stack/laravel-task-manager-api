@@ -1,0 +1,42 @@
+# --- Laravel Specific ---
+/vendor/
+.env
+.env.backup
+.env.production
+composer.lock
+package-lock.json
+/public/storage
+/public/hot
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# --- Docker Specific ---
+.docker/
+docker-compose.override.yml
+
+# --- Frontend (If applicable) ---
+/node_modules/
+/public/build
+npm-debug.log
+yarn-error.log
+
+# --- Testing & Coverage ---
+.phpunit.result.cache
+/tests/TestCase.php.bak
+.php_cs.cache
+.php-cs-fixer.cache
+
+# --- IDE & OS Specific ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

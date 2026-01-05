@@ -75,7 +75,7 @@ composer install
 3. **Setup environment**
 
 cp .env.example .env
-# update DB settings
+update DB settings
 
 4. **Run database migrations**
 
@@ -84,7 +84,7 @@ php artisan migrate
 5. **Start the server**
 
 php artisan serve
-# or using Docker:
+ or using Docker:
 docker-compose up --build
 
 6. **Test API endpoints**
@@ -93,7 +93,7 @@ docker-compose up --build
 
 GET http://127.0.0.1:8000/api/tasks
 
-# Create a new task:
+Create a new task:
 
 POST http://127.0.0.1:8000/api/tasks
 Content-Type: application/json
