@@ -12,6 +12,10 @@ This project is designed as a **portfolio-ready educational prototype**, showing
 ## Project Architecture
 
 laravel-task-manager-api/
+## 📂 Project Structure
+
+```bash
+laravel-task-manager-api/
 ├── app/
 │   ├── Http/
 │   │   ├── Controllers/        # API endpoint logic
@@ -35,8 +39,6 @@ laravel-task-manager-api/
 ├── .env.example                # Environment variable template
 ├── composer.json               # PHP dependencies
 └── README.md                   # Project documentation
-
-yaml
 
 
 ---
