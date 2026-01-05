@@ -13,28 +13,28 @@ This project is designed as a **portfolio-ready educational prototype**, showing
 
 laravel-task-manager-api/
 ├── app/
-│ ├── Http/
-│ │ ├── Controllers/ # API endpoint logic
-│ │ │ └── TaskController.php
-│ │ └── Requests/ # Input validation classes
-│ │ └── StoreTaskRequest.php
-│ ├── Models/ # Eloquent models
-│ │ └── Task.php
-│ └── Providers/ # Service providers
+│   ├── Http/
+│   │   ├── Controllers/        # API endpoint logic
+│   │   │   └── TaskController.php
+│   │   └── Requests/           # Input validation classes
+│   │       └── StoreTaskRequest.php
+│   ├── Models/                 # Eloquent models
+│   │   └── Task.php
+│   └── Providers/              # Service providers
 ├── database/
-│ ├── migrations/ # Database table schemas
-│ │ └── 2024_01_01_create_tasks_table.php
-│ └── seeders/ # Optional sample data
+│   ├── migrations/             # Database table schemas
+│   │   └── 2024_01_01_create_tasks_table.php
+│   └── seeders/                # Optional sample data
 ├── routes/
-│ ├── api.php # REST API routes
-│ └── web.php # Web routes (optional)
+│   ├── api.php                 # REST API routes
+│   └── web.php                 # Web routes (optional)
 ├── tests/
-│ └── Feature/ # Feature tests (PHPUnit)
-├── Dockerfile # Docker container definition
-├── docker-compose.yml # Docker Compose configuration
-├── .env.example # Environment variable template
-├── composer.json # PHP dependencies
-└── README.md # Project documentation
+│   └── Feature/                # Feature tests (PHPUnit)
+├── Dockerfile                  # Docker container definition
+├── docker-compose.yml          # Docker Compose configuration
+├── .env.example                # Environment variable template
+├── composer.json               # PHP dependencies
+└── README.md                   # Project documentation
 
 yaml
 
